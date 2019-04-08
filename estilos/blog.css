@@ -18,7 +18,8 @@ section img{
 }
 
 header {
-    border-bottom: 1px solid #ccc;
+    background-color: rgba(255, 2, 2, 0.5);
+    border-bottom: 1px solid rgba(255, 0, 0, 0.527);
     padding-top: 1em;
     padding-bottom: 1em;
     position: fixed;
@@ -86,7 +87,7 @@ section {
 }
 
 .identificacao {
-    background-color: rgb(4, 231, 163);
+    background-image: url("../Imagens/backinf.jpg");
     color: #FCFCFD;
     padding: 10em 2em 7em;
 }
@@ -117,7 +118,7 @@ header li a {
 }
 
 .claras {
-    background-color: #FCFCFD;
+    background-color: rgba(255, 4, 4, 0.459);
     color: #2B313E;
 }
 .projetos-header{
@@ -130,7 +131,8 @@ header li a {
 }
 
 .styleprojetos{ 
-  margin-left: 40%;
+
+    margin-left: 40%;
 }
 .styleprojetos li {
     background-color: #6F768B;
@@ -181,4 +183,10 @@ footer {
     padding-top: 1em;
     padding-bottom: 1em;
 
+}
+.bk-img{
+    background-image: url("../imagens/ovini.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
