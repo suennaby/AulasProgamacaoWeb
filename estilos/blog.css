@@ -58,6 +58,9 @@ header li {
 #contato .email {
     background-image: url("../Imagens/mail.png");
 }
+#contato .pint {
+    background-image: url("../Imagens/pinterest.png");
+}
 
 #contato .face {
     background-image: url("../Imagens/face.png");
@@ -128,6 +131,14 @@ header li a {
 
 .projetos-header h3{
     margin-top: 1em;
+}
+.pro h3{
+    color: #FCFCFD;
+    font-size: 3em;
+}
+.pro p{
+    color: #FCFCFD;
+    font-size: 1.2em;
 }
 
 .styleprojetos{ 
