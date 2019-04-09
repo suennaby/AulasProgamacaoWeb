@@ -56,24 +56,24 @@ header li {
 }
 
 #contato .email {
-    background-image: url("../Imagens/email.png");
+    background-image: url("../Imagens/mail.png");
 }
 
 #contato .face {
-    background-image: url("../Imagens/facebook.png");
+    background-image: url("../Imagens/face.png");
 
 }
 
 #contato .twitter {
-    background-image: url("../Imagens/twitter.png");
+    background-image: url("../Imagens/twi.png");
 }
 
 #contato .insta {
-    background-image: url("../Imagens/insta.png");
+    background-image: url("../Imagens/inst.png");
 }
 
 #contato .linkedin {
-    background-image: url("../Imagens/linkedin.png");
+    background-image: url("../Imagens/link.png");
 }
 .container {
     padding-left: 10%;
@@ -113,12 +113,12 @@ header li a {
 }
 
 .escuras {
-    background-color: #2B313E;
+    background-color: #de000d;
     color: #FCFCFD;
 }
 
 .claras {
-    background-color: rgba(255, 4, 4, 0.459);
+    background-image: url("../Imagens/lgbt.jpg");
     color: #2B313E;
 }
 .projetos-header{
@@ -135,9 +135,10 @@ header li a {
     margin-left: 40%;
 }
 .styleprojetos li {
-    background-color: #6F768B;
+    background-color: #241c586e;
     padding: 1em;
     margin-bottom: 2em;
+    border-radius: 25px
 }
 
 .styleprojetos li a {
@@ -184,9 +185,16 @@ footer {
     padding-bottom: 1em;
 
 }
-.bk-img{
+.backgd{
     background-image: url("../imagens/ovini.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed
+}
+.rd{
+    border-radius: 50%;
+}
+.sombra{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;  
 }
