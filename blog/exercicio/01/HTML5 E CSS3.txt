@@ -1,0 +1,115 @@
+
+:ntl-last-child [p:nth-last-child(2){color: red;}]
+
+:first-of-type[p:first-of-type{color:blue;}]
+
+:last-of-type[p:last-of-type{color:blue;}]
+
+Suporte a colunas [#content{ column-count: 2; column~gap: 20px; column-rule: 1px solid #ddccb5;}]
+
+:after [span.weight:after { content: "lbs";color: #bbb; }]
+
+Consulta a mídia [media="only all and (max-width: 480)"]
+
+css3advancedselectors/table.html
+<table>
+<tr>Item</th>
+<th>Preço</th>
+<th>Quantidade</th>
+<th>Total</th>
+</tr>
+<tr>
+<td>Xícara de café</td>
+<td>R$10,00</td>
+<td>5</td>
+<td>R$50,00,/td>
+</tr>
+<tr>
+<tr>
+<td>Camisa Polo</td>
+<td>R$20,00</td>
+<td>5</td>
+<td>R$100,00,/td>
+</tr>
+<tr>
+<td>Grampeador vermelho</td>
+<td>R$9,00</td>
+<td>4</td>
+<td>R$36,00,/td>
+</tr>
+<tr>
+<td colspan="3">Frete</td>
+<td>R$12,00</td>
+</tr>
+<tr>
+<td colspan="3">Total Devido</td>
+<td>R$198,00</td>
+</tr>
+</table>
+
+css3advancedselectors/table.css
+table{
+width: 600px;
+border-collapse: collapse;
+}
+th, td{
+border: none;
+}
+
+css3advancedselectors/table.css
+th{
+background-color: #000;
+color: #fff;
+}
+
+css3advancedselectors/table.html
+tr:nth-of-type(even){
+background-color: #F3F3F3;
+}
+tr:nth-of-type(odd) {
+background-color:#ddd;
+}
+
+table tr:nth-child(n)
+table tr:nth-child(n+2)
+table tr:nth-child(2n)
+table tr:nth-child(2n+4)
+
+css3advancedselectors/table.css
+table tr:nth-child(n+2){
+text-align: right;
+}
+
+p{ margin-bottom: 20px }
+#sidebar p:last-child{ margin-botton: 0; }
+
+css3advancedselectors/table.css
+tr:last-child{
+font-weight: bolder;
+}
+css3advancedselectors/table.css
+td:last-child{
+font-weight: bolder;
+}
+
+css3advancedselectors/table.css
+tr:last-child td:last-child{
+font-size: 24px;
+}
+
+css3advancedselectors/table.css
+tr:nth-last-child(2) {
+color: green;
+}
+
+css3advancedselectors/table.css
+tr:nth-last-child(-n+3) td{
+text-align: right;
+}
+
+css3advancedselectors/table.css
+<!--[if (gte IE 5.5) & (lte IE 8)]>
+<script type ="text/javascript"
+scr="js/DOMAssistantCompressed-2.8.js"></script>
+<script type="text/javascript"
+scr="js/ie-css3.js"></script>
